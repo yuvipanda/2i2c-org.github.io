@@ -12,9 +12,12 @@ draft: false
 
 👋 hey everyone!
 
-We'd like to announce the creation of a new non-profit organization that we call **2i2c**.
+We'd like to announce the creation of a new non-profit organization[^1] that we call **2i2c**.
 
-2i2c stands for **The International Interactive Computing Collaboration**. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education community.
+
+[^1]: 2i2c is technically a **project** of the [International Computer Science Institute](http://www.icsi.berkeley.edu/), a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!
+
+2i2c stands for **The International Interactive Computing Collaboration**. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.
 
 This is a short post about why we created 2i2c, what we hope that it will do, and what we are up to next. If you'd prefer to watch a video instead of read a blog post, check out this talk about 2i2c at JupyterCon 2020:
 
@@ -43,17 +46,20 @@ As a non-profit, 2i2c is dedicated to supporting an ecosystem of tools and stake
 
 With all of that in mind, what is 2i2c actually going to do? We are still working out the details here, but here's a rough picture:
 
-Offer **hosted interactive computing environments on cloud infrastructure**. These will be entirely open source, and customizable for the communities that are using them. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. We will offers these environments as a service for those in research and education, running on entirely open-source, vendor-agnostic, and community-driven infrastructure.
+Offer [**hosted interactive computing environments on cloud infrastructure**](/infrastructure). These will [be entirely open source][right-to-fork], and customizable for the communities that are using them. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. We will offers these environments as a service for those in research and education, running on entirely open-source, vendor-agnostic, and community-driven infrastructure. For more information about the vision and values of our hosted infrastructure, see [the 2i2c **right to fork** document][right-to-fork].
 
-Provide **collaboration and development for interactive computing in research and education**. Beyond providing hub infrastructure, there are also many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize one community's needs in scalable computing so that other researchers can use the same tools? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful for these communities.
+[right-to-fork]: https://docs.google.com/document/d/1A2lEjvmZuhmNpPc1qBnT4QLFmKza7p8Io9w36UHCIT0/edit?ts=5f9f8c97
+<!-- TODO: when that doc is published change the link -->
 
-Provide **core development and community support** for open source projects that we use. While many organizations *use* Jupyter technology in their projects, it is also crucial that they *give back* to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing crucial core support for them.
+Provide [**collaboration and development for interactive computing in research and education**](/infrastructure#research-development-hubs). Beyond providing hub infrastructure, there are also many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community's solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.
+
+Provide [**core development and community support**](/open-source) for open source projects that we use. While many organizations *use* Jupyter technology in their projects, it is also crucial that they *give back* to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing crucial core support for them.
 
 ## Next steps
 
 2i2c is a young organization, but we already have a few exciting ideas to work towards in the coming months. Here's an idea of what we'll be up to next.
 
-Our first step is to **understand how interactive computing can best-serve the research and education community**. We know that interactive computing tools can work in our specific use-cases, but how do these generalize to other domains or types of organizations? Moreover, how can we improve the open source tools to make them even more customizable for each community?
+Our first step is to **understand how interactive computing can best-serve the research and education communities**. We know that interactive computing tools can work in our specific use-cases, but how do these generalize to other domains or types of organizations? Moreover, how can we improve the open source tools to make them even more customizable for each community?
 
 We'll begin answering this question through several focused JupyterHub pilots aimed at different use-cases across research and education:
 
@@ -65,7 +71,7 @@ We'll also need to use these pilots to **develop an organizational sustainabilit
 
 ## What do we need?
 
-As a non-profit organization, 2i2c has a long road ahead of it. We cannot (and to not wish to) take venture capital funding, so we have to raise funds the old-fashioned way. This means that:
+As a non-profit organization, 2i2c has a long road ahead of it. We cannot (and do not wish to) take venture capital funding, so we have to raise funds the old-fashioned way. This means that:
 
 - If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 - If you are a funder or are otherwise interested in supporting 2i2c with a donation or grant, please [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
