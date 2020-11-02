@@ -14,7 +14,6 @@ draft: false
 
 We'd like to announce the creation of a new non-profit organization[^1] that we call **2i2c**.
 
-
 [^1]: 2i2c is technically a **project** of the [International Computer Science Institute](http://www.icsi.berkeley.edu/), a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!
 
 2i2c stands for **The International Interactive Computing Collaboration**. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.
@@ -44,7 +43,7 @@ As a non-profit, 2i2c is dedicated to supporting an ecosystem of tools and stake
 
 ## What are we going to do?
 
-With all of that in mind, what is 2i2c actually going to do? We are still working out the details here, but here's a rough picture:
+With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here's a rough picture:
 
 Offer [**hosted interactive computing environments on cloud infrastructure**](/infrastructure). These will [be entirely open source][right-to-fork], and customizable for the communities that are using them. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. We will offers these environments as a service for those in research and education, running on entirely open-source, vendor-agnostic, and community-driven infrastructure. For more information about the vision and values of our hosted infrastructure, see [the 2i2c **right to fork** document][right-to-fork].
 
